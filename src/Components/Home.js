@@ -29,6 +29,9 @@ import frame1 from "../images/Frame 25.svg";
 import frame2 from "../images/Frame 24.svg";
 import frame3 from "../images/Frame 23.svg";
 import frame4 from "../images/Frame 22.svg";
+import akin1 from '../images/akinyemi 1.png'
+import akin2 from '../images/akinyemi 2.png'
+import cards from '../images/cards.png'
 
 const Home = () => {
   const screen = window.screen.availWidth;
@@ -58,7 +61,7 @@ const Home = () => {
           </section>
           <section className="three">
             <div>
-              <img src={collabo} alt="" />
+              <img src={akin2} alt="" />
               <aside>
                 <h4>Web3 Hub</h4>
                 <p>
@@ -82,13 +85,10 @@ const Home = () => {
                 </p>
                 <button>NFT Debit card</button>
               </aside>
-              {/* <div>
-          <img src={} alt="" />
-          <img src={} alt="" />
-        </div> */}
+              <img src={cards} alt="" />
             </div>
             <div>
-              <img src="" alt="" />
+              <img src={akin1} alt="" />
               <aside>
                 <h4>Escrow</h4>
                 <p>
