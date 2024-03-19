@@ -1,0 +1,90 @@
+footer {
+  background: #0c1116;
+  padding: 121px 10% 88px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+footer article {
+  padding: 50px 6%;
+  border-radius: 20px;
+  background: linear-gradient(93deg, #04f280 18.37%, #9ded69 83.92%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer article aside p {
+  color: #26273c;
+  font-family: "PPTelegraf-Regular", sans-serif;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 45px */
+}
+footer article button {
+  border-radius: 10px;
+  background: #1c1c2b;
+  border: none;
+  color: #04f280;
+  font-family: "PPTelegraf-Regular", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 16px;
+  cursor: pointer;
+  transition: opacity 0.4s linear;
+}
+footer article button:hover {
+  opacity: 0.67;
+}
+footer nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 110px;
+  padding: 0 5%;
+  margin-top: 120px;
+}
+footer nav div {
+  font-family: "PPTelegraf-Regular", sans-serif;
+}
+footer nav div h6 {
+  color: #04f280;
+  font-size: 24px;
+  font-style: normal;
+  max-width: 170px;
+  margin-bottom: 35px;
+  font-weight: 400;
+  line-height: normal;
+}
+footer nav div p {
+  color: #d4d4d4;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 18px;
+  line-height: normal;
+}
+footer nav div input {
+  border-radius: 10px 10px 10px 0px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 12px 15px;
+  display: block;
+  outline: none;
+  color: rgb(179, 178, 178);
+}
+footer nav div button {
+  padding: 12px;
+  border: none;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background: var(--lynx-gradient, linear-gradient(180deg, #9ded69 0%, #04f280 70.21%));
+  box-shadow: 3px -3px 30px 0px rgba(157, 237, 105, 0.25);
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+footer nav div button:hover {
+  opacity: 0.67;
+}/*# sourceMappingURL=Footer.css.map */
